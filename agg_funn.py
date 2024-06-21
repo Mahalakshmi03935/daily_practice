@@ -1,4 +1,4 @@
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession           .
 from pyspark.sql.functions import mean, collect_list, collect_set, countDistinct, count, first, last
 
 spark = SparkSession.builder.appName("agg_func").getOrCreate()
